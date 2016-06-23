@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StepperView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <StepperViewDelegate>
 
 
 @end

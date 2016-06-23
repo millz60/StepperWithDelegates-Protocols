@@ -13,6 +13,7 @@
 		C9E79A781D1C7E54005FC48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E79A761D1C7E54005FC48E /* Main.storyboard */; };
 		C9E79A7A1D1C7E54005FC48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E79A791D1C7E54005FC48E /* Assets.xcassets */; };
 		C9E79A7D1D1C7E54005FC48E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E79A7B1D1C7E54005FC48E /* LaunchScreen.storyboard */; };
+		C9E79A861D1C7FEB005FC48E /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E79A851D1C7FEB005FC48E /* StepperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C9E79A791D1C7E54005FC48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E79A7C1D1C7E54005FC48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9E79A7E1D1C7E54005FC48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E79A841D1C7FEB005FC48E /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
+		C9E79A851D1C7FEB005FC48E /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				C9E79A741D1C7E54005FC48E /* ViewController.m */,
 				C9E79A761D1C7E54005FC48E /* Main.storyboard */,
 				C9E79A791D1C7E54005FC48E /* Assets.xcassets */,
+				C9E79A841D1C7FEB005FC48E /* StepperView.h */,
+				C9E79A851D1C7FEB005FC48E /* StepperView.m */,
 				C9E79A7B1D1C7E54005FC48E /* LaunchScreen.storyboard */,
 				C9E79A7E1D1C7E54005FC48E /* Info.plist */,
 				C9E79A6D1D1C7E54005FC48E /* Supporting Files */,
@@ -151,6 +156,7 @@
 			files = (
 				C9E79A751D1C7E54005FC48E /* ViewController.m in Sources */,
 				C9E79A721D1C7E54005FC48E /* AppDelegate.m in Sources */,
+				C9E79A861D1C7FEB005FC48E /* StepperView.m in Sources */,
 				C9E79A6F1D1C7E54005FC48E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "StepperWithDelegates&Protocols/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theironyard.houston.StepperWithDelegates-Protocols";
@@ -276,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "StepperWithDelegates&Protocols/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theironyard.houston.StepperWithDelegates-Protocols";
